@@ -1,4 +1,7 @@
 body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -30,20 +33,34 @@ nav {
   color: #344563;
 }
 
+.header-container {
+  height: 100vh;
+}
+
 header {
   max-width: 920px;
 }
 
 header h1 {
   font-weight: 900;
+  font-size: 48px;
   color: #091E42;
 }
 
 .about-info {
   font-weight: lighter;
+  font-size: 20px;
+  color: #344563;
+}
+
+.connect-prompt {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #7F8CFF;
 }
 
 .social-links a img {
+  margin-right: 10px;
   width: 30px;
   height: 30px;
 }
