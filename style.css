@@ -1,0 +1,23 @@
+header {
+  margin-top: 15px;
+}
+
+.logo {
+  margin-left: 50px;
+}
+
+.logo a {
+  font-family: 'Poppins', sans-serif;
+  color: #6070FF;
+}
+
+.menu-container li {
+  margin-right: 50px;
+  list-style-type: none;
+}
+
+.menu-container li a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: #344563;
+}
