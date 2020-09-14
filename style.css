@@ -1,14 +1,22 @@
-header {
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
   margin-top: 15px;
 }
 
 .logo {
-  margin-left: 50px;
+  margin-left: 150px;
 }
 
 .logo a {
-  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
   color: #6070FF;
+}
+
+.menu-container {
+  margin-right: 100px;
 }
 
 .menu-container li {
@@ -17,7 +25,25 @@ header {
 }
 
 .menu-container li a {
-  font-family: 'Poppins', sans-serif;
   font-size: 15px;
+  font-weight: bold;
   color: #344563;
+}
+
+header {
+  max-width: 920px;
+}
+
+header h1 {
+  font-weight: 900;
+  color: #091E42;
+}
+
+.about-info {
+  font-weight: lighter;
+}
+
+.social-links a img {
+  width: 30px;
+  height: 30px;
 }
