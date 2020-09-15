@@ -35,7 +35,6 @@ nav {
 
 .header-container {
   height: 100vh;
-  margin-bottom: 50px;
 }
 
 header {
@@ -90,9 +89,11 @@ header h1 {
   border-bottom: 0;
 }
 
-#portfolio-item {
-  height: 100vh;
-}
+/* #portfolio-item {
+  height: 90vh;
+  width: 90%;
+  border-radius: 10px;
+} */
 
 .zattix-shot {
   width: 600px;
