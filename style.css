@@ -176,3 +176,32 @@ header h1 {
   border-radius: 10px;
   background: #f7f7f9;
 }
+
+.contacts {
+  height: 100vh;
+  background: #6070ff;
+  border-top-left-radius: 120px;
+}
+
+.contacts h1,
+p {
+  color: #fff;
+}
+
+.contacts-header {
+  font-weight: bold;
+}
+
+.contact-text {
+  font-size: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.contacts-label {
+  color: #fff;
+}
+
+.submit-button {
+  color: #172b4d;
+}
