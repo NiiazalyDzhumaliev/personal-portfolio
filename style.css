@@ -177,13 +177,13 @@ header h1 {
   background: #f7f7f9;
 }
 
-.contacts {
+#contacts {
   height: 100vh;
   background: #6070ff;
   border-top-left-radius: 120px;
 }
 
-.contacts h1,
+#contacts h1,
 p {
   color: #fff;
 }
