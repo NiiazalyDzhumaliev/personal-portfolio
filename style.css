@@ -75,6 +75,16 @@ header h1 {
   transform: rotate(-46.14deg);
 }
 
+.rect-2 {
+  position: absolute;
+  width: 204px;
+  height: 47px;
+  left: 950px;
+  top: 150px;
+  background: #ebebff;
+  transform: rotate(-46.14deg);
+}
+
 .ellipse-1 {
   position: absolute;
   left: 70px;
@@ -87,6 +97,18 @@ header h1 {
   border-top-right-radius: 110px;
   border: 10px solid #6070ff;
   border-bottom: 0;
+}
+
+.ellipse-2 {
+  position: absolute;
+  left: 1045px;
+  top: 170px;
+  transform: rotate(-156.88deg);
+  width: 150px;
+  height: 150px;  
+  border-radius: 50%;  
+  border: 30px solid #6070ff; 
+  border-left-color: #fff;
 }
 
 #portfolio-item {
