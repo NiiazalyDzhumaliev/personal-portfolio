@@ -2,7 +2,14 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #E5E5E5;
   font-family: "Poppins", sans-serif;
+}
+
+.header-section {
+  height: 100vh;
+  border-bottom-left-radius: 110px;
+  background-color: #fff;
 }
 
 nav {
@@ -31,10 +38,6 @@ nav {
   font-size: 15px;
   font-weight: bold;
   color: #344563;
-}
-
-.header-container {
-  height: 100vh;
 }
 
 header {
@@ -224,5 +227,7 @@ header h1 {
 }
 
 .submit-button {
-  color: #172b4d;
+  border-radius: 10px; 
+  color: #6070ff;
+  border: none;
 }

@@ -18,40 +18,42 @@
 </head>
 
 <body>
-  <nav class="d-flex justify-content-between">
-    <div class="logo"><a href="#">My logo</a></div>
-    <ul class="menu-container d-flex">
-      <li><a href="#projects-container">Portfolio</a></li>
-      <li><a href="#about-container">About</a></li>
-      <li><a href="#contacts">Contact</a></li>
-    </ul>
-  </nav>
-  <div class="header-container d-flex justify-content-center align-items-center">
-    <div class="rect-1"></div>
-    <div class="ellipse-1"></div>
-    <div class="rect-2"></div>
-    <div class="ellipse-2"></div>
-    <header class="d-flex flex-column">
-      <h1>I'm Niiazaly<br />Glad to see you</h1>
-      <p class="about-info">
-        I am a software developer. I can help you build a product, feature or
-        website. Look through some of my work and experience. If you like what
-        you see and have a project you need coded, don't hesitate to contact
-        me.
-      </p>
-      <p class="connect-prompt">let's connect</p>
-      <div class="social-links">
-        <a href="https://twitter.com/Niiazaly1" target="_blank"><img src="images\icons8-twitter-240.png"
-            alt="twitter" /></a>
-        <a href="https://github.com/NiiazalyDzhumaliev" target="_blank"><img src="images\icons8-github-384.png"
-            alt="github" /></a>
-        <a href="https://www.linkedin.com/in/niiazaly-dzhumaliev/" target="_blank"><img
-            src="images\icons8-linkedin-240.png" alt="linkedin" /></a>
-        <a href="https://medium.com/@diamondas1993" target="_blank"><img src="images\icons8-medium-monogram-240.png"
-            alt="medium" /></a>
-      </div>
-    </header>
-  </div>
+  <section class="header-section">
+    <nav class="d-flex mt-0 pt-3 justify-content-between">
+      <div class="logo"><a href="#">My logo</a></div>
+      <ul class="menu-container d-flex">
+        <li><a href="#projects-container">Portfolio</a></li>
+        <li><a href="#about-container">About</a></li>
+        <li><a href="#contacts">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-container d-flex justify-content-center align-items-center">
+      <div class="rect-1"></div>
+      <div class="ellipse-1"></div>
+      <div class="rect-2"></div>
+      <div class="ellipse-2"></div>
+      <header class="d-flex flex-column">
+        <h1>I'm Niiazaly<br />Glad to see you</h1>
+        <p class="about-info">
+          I am a software developer. I can help you build a product, feature or
+          website. Look through some of my work and experience. If you like what
+          you see and have a project you need coded, don't hesitate to contact
+          me.
+        </p>
+        <p class="connect-prompt">let's connect</p>
+        <div class="social-links">
+          <a href="https://twitter.com/Niiazaly1" target="_blank"><img src="images\icons8-twitter-240.png"
+              alt="twitter" /></a>
+          <a href="https://github.com/NiiazalyDzhumaliev" target="_blank"><img src="images\icons8-github-384.png"
+              alt="github" /></a>
+          <a href="https://www.linkedin.com/in/niiazaly-dzhumaliev/" target="_blank"><img
+              src="images\icons8-linkedin-240.png" alt="linkedin" /></a>
+          <a href="https://medium.com/@diamondas1993" target="_blank"><img src="images\icons8-medium-monogram-240.png"
+              alt="medium" /></a>
+        </div>
+      </header>
+    </div>
+  </section>
   <section id="projects-container" class="d-flex justify-content-center align-items-center flex-column">
     <div class="portfolio-item d-flex justify-content-around align-items-center w-100">
       <div class="screenshot">
@@ -96,8 +98,7 @@
         </ul>
         <ul class="project-demo d-flex">
           <li>
-            <a href="https://infallible-knuth-601d7a.netlify.app/"
-              target="_blank">See demo</a>
+            <a href="https://infallible-knuth-601d7a.netlify.app/" target="_blank">See demo</a>
           </li>
           <li>
             <a href="https://github.com/NiiazalyDzhumaliev/shooter-game" target="_blank">See on Github</a>
@@ -119,7 +120,7 @@
           I am a software developer. I can help you build a product, feature
           or website. Look through some of my work and experience. If you like
           what you see and have a project you need coded, don't hesitate to
-          contact me
+          contact me.
         </p>
         <p class="connect-prompt mb-4">let's connect</p>
         <div class="social-links">
@@ -168,7 +169,7 @@
       <input type="text" id="fname" name="fname" placeholder="Firstname" class="mb-3" /><br />
       <label for="lname" class="contacts-label">Last name:</label><br />
       <input type="text" id="lname" name="lname" placeholder="Lastname" /><br /><br />
-      <input type="submit" value="Get in touch" class="submit-button align-self-center" />
+      <input type="submit" value="Get in touch" class="submit-button align-self-center pl-3 pr-3 pb-2 pt-2" />
     </form>
   </section>
   <footer></footer>
