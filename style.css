@@ -183,8 +183,7 @@ header h1 {
   border-top-left-radius: 120px;
 }
 
-#contacts h1,
-p {
+#contacts h1 {
   color: #fff;
 }
 
@@ -196,6 +195,7 @@ p {
   font-size: 20px;
   width: 50%;
   text-align: center;
+  color: #fff;
 }
 
 .contacts-label {
