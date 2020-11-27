@@ -26,7 +26,7 @@ nav {
 
 .logo a {
   font-weight: bold;
-  color: #6070ff;
+  color: #344563;
 }
 
 .menu-container {
@@ -63,7 +63,7 @@ header h1 {
 .connect-prompt {
   font-size: 16px;
   text-transform: uppercase;
-  color: #7f8cff;
+  color: #344563;
 }
 
 .social-links a img {
@@ -165,7 +165,7 @@ header h1 {
 .stack-list li {
   margin-right: 10px;
   text-transform: uppercase;
-  color: #6070ff;
+  color: #344563;
   background: #ebebff;
   padding: 2px 8px;
   border-radius: 10px;
