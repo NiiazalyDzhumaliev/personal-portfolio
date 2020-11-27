@@ -225,18 +225,20 @@ header h1 {
 }
 
 .contact-text {
-  font-size: 20px;
+  font-size: 24px;
   width: 50%;
   text-align: center;
   color: #fff;
 }
 
 .contacts-label {
+  font-size: 20px;
   color: #fff;
 }
 
 .submit-button {
   border-radius: 10px;
-  color: #6070ff;
+  font-weight: bold;
+  color: #344563;
   border: none;
 }
